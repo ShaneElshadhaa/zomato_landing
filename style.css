@@ -71,14 +71,16 @@ header{
 .search .search-item{
     display: flex ;
     align-items: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
+
 .search .search-item p{
     color: gray;
     border-right: 1px solid gray;
     font-size: 15px;
     margin-right: 10px;
     padding-left: 10px;
+    
     width: 400px;
 }
 
@@ -87,8 +89,10 @@ header{
     border: none;
     width: 300px;
     padding-left: 10px;
+    padding-right: 10px;
     font-size: 15px;
 }
+
 .search .search-item:first-child{
     width: 30%;
     color: rgb(247, 124, 137);
@@ -226,3 +230,41 @@ header{
 }
  
 
+/* @media only screen and (max-width: 900px){
+    .nav{
+            grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .nav{
+            grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .nav{
+            grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width: 1300px){
+    .section-3 .section-3-container .section-3-img,
+    .section-3 .section-3-container .section-3-download{
+        flex: 1;
+    }
+
+    .section-3 .section-3-container{
+        width: 80%;
+    }
+}
+
+/* 0-900 */
+/* @media only screen and (max-width: 900px){
+    .section-3 {
+        padding: 2rem 0;
+    }
+    .section-3 .section-3-container {
+        width: 95%;
+        flex-direction: column;
+    }
+} */ 
